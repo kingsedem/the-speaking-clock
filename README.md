@@ -1,25 +1,18 @@
-# Serenity JUnit Starter project
+# Speaking Clock Kata
 
-Get started quickly with Serenity BDD and JUnit 5 with this simple starter project. 
+The goal of this code kata is to design a Conversational Clock - 
+a cluster of objects, capable of telling the current system time in a conversational format.
 
-## Get the code
 
-Click on the [Use This Template button](https://github.com/serenity-bdd/serenity-junit-starter/generate) to create a new project in your own Github account. 
+Here are several examples of what the Conversational Clock should tell, depending on the time of the day:
 
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-junit-starter/archive/master.zip) file.
-
-## Running the tests under Maven
-
-The template project comes with both Maven and Gradle build scripts. To run the tests with Maven, open a command window and run:
-
-  ./mvnw clean verify
-
-## Use Gradle
-
-For GRADLE, pen a command window and run:
-
-  ./gradlew test 
-
-## Viewing the reports
-
-Both of the commands provided above will produce a Serenity test report in the `target/site/serenity` directory. Go take a look!
+# Time	and Expected Output
+- 01:00 and 13:00 it's one o'clock
+- 08:07	it's seven past eight
+- 12:00	it's noon
+- 24:00	it's midnight
+- 02:30	it's half past three
+- 14:50	it's ten to three
+- 14:45	it's a quarter to three
+- 13:58	it's almost two o'clock
+- 14:01	it's just after two o'clock
